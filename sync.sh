@@ -18,7 +18,7 @@ cargo build --release --manifest-path "$SCRIPT_DIR/Cargo.toml"
 DEST="$PLUGINS_DIR/$PLUGIN_ID"
 mkdir -p "$DEST"
 
-cp "$SCRIPT_DIR/manifest.json" "$DEST/manifest.json"
+cp "$SCRIPT_DIR/.tabularium" "$DEST/.tabularium"
 cp "$SCRIPT_DIR/target/release/$EXECUTABLE" "$DEST/$EXECUTABLE"
 chmod +x "$DEST/$EXECUTABLE"
 
