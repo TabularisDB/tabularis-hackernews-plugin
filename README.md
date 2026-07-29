@@ -56,7 +56,7 @@ Open **Settings → Available Plugins** in Tabularis and install **Hacker News**
 
 1. Download the latest release archive for your platform from the [Releases page](https://github.com/debba/tabularis-hackernews-plugin/releases).
 2. Extract the archive.
-3. Copy `tabularis-hackernews-plugin` (or `tabularis-hackernews-plugin.exe` on Windows) and `manifest.json` into the Tabularis plugins directory:
+3. Copy `tabularis-hackernews-plugin` (or `tabularis-hackernews-plugin.exe` on Windows) and `.tabularium` into the Tabularis plugins directory:
 
 | OS | Plugins Directory |
 |---|---|
