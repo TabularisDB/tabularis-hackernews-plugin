@@ -1,10 +1,12 @@
 {
-  "$schema": "https://tabularis.dev/schemas/plugin-manifest.json",
-  "id": "hackernews",
-  "name": "Hacker News",
-  "version": "0.1.0",
+  "name": "hackernews",
+  "version": "0.1.1",
+  "kind": "driver",
   "description": "Query Hacker News stories, comments, users and polls as SQL tables using the public API.",
-  "default_port": null,
+  "engine": "hackernews",
+  "paradigms": [
+    "document"
+  ],
   "executable": "tabularis-hackernews-plugin",
   "color": "#ff6600",
   "icon": "rss",
