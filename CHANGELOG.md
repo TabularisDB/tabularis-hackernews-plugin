@@ -7,11 +7,13 @@
 ### 🐛 Bug Fixes
 
 - *(manifest)* Satisfy the Tabularium driver-kind contract (#4)
+- *(ci)* Keep .tabularium when uploading the manifest artifact
 
 ### ⚙️ Miscellaneous Tasks
 
 - *(release)* V0.1.0
 - Switch Discord invite URL to discord.com/invite/K2hmhfHRSt
+- *(release)* V0.1.1
 ## [0.1.0] - 2026-03-09
 
 ### 🚀 Features
