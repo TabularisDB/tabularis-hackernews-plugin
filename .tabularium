@@ -9,7 +9,8 @@
   ],
   "executable": "tabularis-hackernews-plugin",
   "color": "#ff6600",
-  "icon": "rss",
+  "icon": "https://raw.githubusercontent.com/TabularisDB/tabularis-hackernews-plugin/main/hackernews-logo.png",
+  "lucide_icon": "rss",
   "capabilities": {
     "schemas": false,
     "views": false,
