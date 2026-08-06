@@ -1,8 +1,9 @@
-## [0.1.1] - 2026-07-30
+## [0.1.1] - 2026-08-06
 
 ### 🚀 Features
 
 - Migrate to the .tabularium manifest for the Tabularium registry
+- Catalogue icon, per-version release notes, manifest asset fix
 
 ### 🐛 Bug Fixes
 
@@ -13,6 +14,7 @@
 
 - *(release)* V0.1.0
 - Switch Discord invite URL to discord.com/invite/K2hmhfHRSt
+- *(release)* V0.1.1
 - *(release)* V0.1.1
 ## [0.1.0] - 2026-03-09
 
