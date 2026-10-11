@@ -1,5 +1,6 @@
 {
-  "name": "hackernews",
+  "id": "hackernews",
+  "name": "Hacker News",
   "version": "0.1.1",
   "kind": "driver",
   "description": "Query Hacker News stories, comments, users and polls as SQL tables using the public API.",
