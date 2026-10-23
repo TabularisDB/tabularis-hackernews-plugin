@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/debba/tabularis/main/public/logo-sm.png" width="120" height="120" />
+  <img src="https://raw.githubusercontent.com/TabularisDB/tabularis/main/packages/web-ui/public/logo-sm.png" width="120" height="120" />
 </div>
 
 # tabularis-hackernews-plugin
