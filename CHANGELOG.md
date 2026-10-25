@@ -1,3 +1,12 @@
+## [0.1.3] - 2026-10-25
+
+### 🐛 Bug Fixes
+
+- *(build)* Link DuckDB static extensions with GNU ld (#8)
+
+### ⚙️ Miscellaneous Tasks
+
+- *(release)* V0.1.2
 ## [0.1.2] - 2026-10-25
 
 ### 🐛 Bug Fixes
