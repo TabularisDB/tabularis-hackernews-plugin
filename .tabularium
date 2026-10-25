@@ -84,7 +84,7 @@
       "label": "Comment Depth",
       "type": "number",
       "default": 1,
-      "description": "How many nesting levels of comments to fetch (1\u20133). Higher values fetch many more requests."
+      "description": "How many nesting levels of comments to fetch (1–3). Higher values fetch many more requests."
     },
     {
       "key": "max_comments",
