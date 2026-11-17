@@ -35,3 +35,11 @@ jobs:
       - uses: rustsec/audit-check@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          # RUSTSEC-2026-0543 (chrono is unmaintained) is informational: no
+          # patched release exists and no vulnerability is reported. This
+          # plugin does not use chrono itself; it is required by the Arrow
+          # crates that duckdb depends on (`cargo tree -i chrono`), so there
+          # is no way to drop it short of replacing duckdb. Re-check whenever
+          # duckdb or Arrow is upgraded, or if the advisory gains a patched
+          # version.
+          ignore: RUSTSEC-2026-0543
